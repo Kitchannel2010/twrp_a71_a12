@@ -51,3 +51,6 @@ on fs
 
 on property:ro.build.version.security_patch=*
     setprop ro.vendor.build.security_patch ${ro.build.version.security_patch}
+
+on boot
+    start health-hal-2-1
