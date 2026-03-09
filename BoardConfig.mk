@@ -167,3 +167,6 @@ TW_BACKUP_EXCLUSIONS := /data/fonts
 
 # Battery
 TW_USE_LEGACY_BATTERY_SERVICES := true
+
+# Display
+TW_NO_SCREEN_BLANK := true
